@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/tv_park_category_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="tv_park_category_title About Park"
+	        android:textColor="#000000"
+	        android:textStyle="bold"
+	        android:paddingTop="10dp"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <TextView
+	        android:id="@+id/tv_park_category_item"
+	        android:layout_width="wrap_content"
+	        android:paddingLeft="10dp"
+	        android:text="tv_park_category_item"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/Black" />
+	    
+	    <TextView
+	        android:id="@+id/tv_park_category_description"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:text="tv_park_category_description"
+	        android:textAppearance="?android:attr/textAppearanceSmall"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/separator_dashes"
+	        android:textColor="#19A3FF"
+	        />
+	
+	   
+	    </LinearLayout>
+
+</RelativeLayout>

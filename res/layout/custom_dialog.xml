@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/Black"
+    android:weightSum="1"
+    >
+ 
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow4">
+        
+       
+        
+        <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="TITLE hereTITLE here" 
+        android:layout_weight="0.2" 
+        android:id="@+id/tvNewsTitle" 
+        android:layout_marginLeft="10dp" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFBF" 
+        android:textStyle="bold" 
+        android:layout_marginTop="10dp"></TextView>    
+        
+        <ImageView 
+            android:src="@android:drawable/ic_delete"
+            android:layout_weight="0.2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/imgvCancel">
+        </ImageView>
+               
+    </TableRow>
+    
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow3">
+        
+        <TextView 
+        android:text="Date posted:" 
+        android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"  
+        
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></TextView>
+        
+        <TextView 
+        android:layout_width="wrap_content" 
+        android:text="Tuesday 3 July 2012" 
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp" 
+        android:id="@+id/tvNewsDatePosted" 
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFBF" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content"></TextView>
+    </TableRow>
+   
+    <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow6">
+        
+        <TextView 
+        android:text="In-depth:" 
+        android:id="@+id/textView3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></TextView>
+        
+        
+    </TableRow>
+    
+    <TableRow android:layout_marginLeft="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow6">
+      
+        <TextView 
+        android:layout_width="wrap_content" 
+        android:text="In-depth description of news item" 
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp" 
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvNewsDescription" 
+        android:textColor="#FFFFBF" 
+        android:textStyle="bold" 
+        android:layout_height="wrap_content"></TextView>
+    </TableRow>
+    
+    
+    
+  </LinearLayout>
