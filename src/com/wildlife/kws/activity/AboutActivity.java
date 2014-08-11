@@ -22,6 +22,9 @@ public class AboutActivity extends ActionBarActivity{
 //		
 //		WebView webView = (WebView) findViewById(R.id.webView1);
 //		webView.loadData(String.format(htmlText, myData), mimeType, encoding);
+		
+//		there is an option of using fragments for preference activity, good thing
+//		is it gives a uniform UI with phones noraml settings...
 	}
 	
 	@Override
